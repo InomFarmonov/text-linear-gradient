@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+div{
+    width: 500px;
+    height: 340px;
+    font-size: 36px;
+    font-weight: 900;
+    color: transparent;
+    border: 5px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(0, 51, 255), rgb(225, 0, 255)), linear-gradient(lime, lime);
+    background-clip: text, border-box;
+    box-shadow: 10px 10px 10px #72ce72;
+}
